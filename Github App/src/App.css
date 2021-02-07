@@ -135,6 +135,9 @@ form  i{
   color: grey;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: normal;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 }
 .overviewContainer a .overview {
@@ -283,9 +286,13 @@ form  i{
 
 .reposWrap .repos > h5 {
   padding-top: 10px;
+  padding-right: 20px;
   color: grey;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: normal;
+  white-space: pre-line; 
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .reposWrap .repos .repoInfo {
